@@ -24,6 +24,7 @@ https://oauth.vk.com/authorize?client_id=3682744&v=5.7&scope=wall,friends,groups
 * friends – добавлять в друзья
 * groups – вступать в группы
 * offline – вечный токен, который не нужно обновлять
+
 Если нажать в вк "завершить все сессии", то токен придётся заново получать. Удалять подключенные приложения можно по ссылке https://vk.com/apps?act=settings.
 
 Функции InfiniteLikes.js с примерами:

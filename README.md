@@ -7,7 +7,7 @@
 Сначала нужно получить токен в vk.com – это шестнадцатиричное число, длиной 85 символов. Это что-то вроде временного пароля к аккаунту. Тот, кто его знает (в данном случае, это скрипт), может совершать определённые действия в аккаунте.
 Чтобы его получить, необходимо зайти в аккаунт, с которого будет осуществляться выполнение заданий, и вставить в адресную строку ссылку:
 
-https://oauth.vk.com/authorize?client\_id=3682744&v=5.7&scope=wall,friends,groups,offline&redirect\_uri=http://oauth.vk.com/blank.html&display=page&response\_type=token
+https://oauth.vk.com/authorize?client_id=3682744&v=5.7&scope=wall,friends,groups,offline&redirect_uri=http://oauth.vk.com/blank.html&display=page&response_type=token
 
 и скопировать символы, идущие после "access\_token=". Полученный токен вставить в переменную access\_token в самом начале скрипта.
 

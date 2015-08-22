@@ -17,7 +17,7 @@ https://oauth.vk.com/authorize?client_id=3682744&v=5.7&scope=wall,friends,groups
 
 # Пояснения
 
-Касательно токена можно почитать здесь http://habrahabr.ru/post/213163/
+Касательно токена можно почитать здесь http://habrahabr.ru/post/213163/.
 Запрашиваемые права:
 * wall – чтобы ставить лайки и репосты
 * friends – добавлять в друзья

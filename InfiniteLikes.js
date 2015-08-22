@@ -14,7 +14,7 @@ var repost = 0;
 var sub = 0;
 var group = 0;
 
-var performedOffers = [];    // двумерный массив последних 30 выполненных заданий, одной записи: ["like", "photo12345_67890"] 
+var performedOffers = [];    // двумерный массив последних 30 выполненных заданий, пример одной записи: ["like", "photo12345_67890"] 
 for (var i = 0; i < 30; i++) performedOffers[i] = ["", ""];    //инициализируем его
 
 function do_offers(action, offer, interval) {                     // отправляет запрос на подтверждение

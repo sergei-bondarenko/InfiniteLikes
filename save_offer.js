@@ -1,3 +1,4 @@
+var viewer_id = viewer_profile.uid;  // это id ВК
 function save_offers(action, entity, num, interval) {    // заказать action над entity в количестве num с интервалом interval
   var url = "https://likes.fm/save_offer?entity=" + entity + "&type=" + action + "&num=" + num + "&client_id=" + client_id + "&viewer_id=" + viewer_id;
   var method = "POST";

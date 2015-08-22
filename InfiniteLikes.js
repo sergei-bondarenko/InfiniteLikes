@@ -9,7 +9,7 @@
 
 var access_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; // токен, необходимо вставить свой
 var viewer_id = viewer_profile.uid;	// это id ВК
-var like = 0;					// в этих переменных хранится количество лайков, репостов, подписок, совершённых за текущий сеанс
+var like = 0;				// в этих переменных хранится количество лайков, репостов, подписок, совершённых за текущий сеанс
 var repost = 0;
 var sub = 0;
 var group = 0;
@@ -25,8 +25,8 @@ function do_offers(action, offer, interval) {											// отправляет 
 	var async = true; 					// вкл. асинхронную передачу (выполнение в фоне), чтобы страничка не "зависала" во сремя выполнени запроса
 	var request = new XMLHttpRequest();
 	request.onload = function () {
-    var status = request.status; 												// полученный HTTP статус, напр., 200 для "200 OK"
-    var data = request.responseText;										// полученный ответ.
+    var status = request.status;					// полученный HTTP статус, напр., 200 для "200 OK"
+    var data = request.responseText;			// полученный ответ.
 		if (data.search("checked") != -1) {
 			console.log("Действие " + action + " по отношению к " + offer + " выполнено и подтверждено.");
 			switch (action) {

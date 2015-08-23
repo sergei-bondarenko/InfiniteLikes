@@ -13,7 +13,7 @@ https://oauth.vk.com/authorize?client_id=3682744&v=5.7&scope=wall,friends,groups
 
 Затем нужно зайти на сайт likes.fm, авторизоваться, открыть консоль браузера (CTRL+SHIFT+J в chromium/chrome, CTRL+SHIFT+K в firefox) и скопипастить туда полученный скрипт InfiniteLikes.js. Он должен начнать работать.
 
-Чтобы не копировать скрипт каждый раз в консоль, можно установить менеджер пользовательских скриптов tampermonkey в chromium/chrome или geasemonkey в firefox и добавить в него скрипт InfiniteLikes.js. Тогда он будет запускаться при открытии сайта likes.fm автоматически.
+Чтобы не копировать скрипт каждый раз в консоль, можно установить менеджер пользовательских скриптов tampermonkey в chromium/chrome или greasemonkey в firefox и добавить в него скрипт InfiniteLikes.js. Тогда он будет запускаться при открытии сайта likes.fm автоматически.
 
 # Пояснения
 

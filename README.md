@@ -7,9 +7,9 @@
 1. Сохранить файл `InfiniteLikes.user.js`. Для этого кликнуть правой кнопкой мыши [сюда](https://github.com/grez911/InfiniteLikes/raw/master/InfiniteLikes.user.js) и выбрать "Сохранить ссылку как...".
 2. Получить токен в [vk.com](https://vk.com). Для этого необходимо зайти в аккаунт, с которого будет осуществляться выполнение заданий, и перейти по [этой ссылке](https://oauth.vk.com/authorize?client_id=3682744&v=5.7&scope=wall,friends,groups,offline&redirect_uri=http://oauth.vk.com/blank.html&display=page&response_type=token). Токен будет записан в адресной строке после `access_token=` и до символа `&`. Скопировать его.
 3. Открыть файл `InfiniteLikes.user.js`, вставить токен в переменную `access_token` в самом начале скрипта и сохранить его.
-4. Установить скрит:
-  * Chromium/Chrome: открыть страницу с расширениями (chrome://extensions/) и перетащить туда файл `InfiniteLikes.user.js`.
-  * Firefox: установить [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/) и перетащить файл `InfiniteLikes.user.js` в окно Firefox.
+4. В зависимости от браузера:
+  * Для Chromium/Chrome: открыть страницу с расширениями (chrome://extensions/) и перетащить туда файл `InfiniteLikes.user.js`.
+  * Для Firefox: установить [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/) и перетащить файл `InfiniteLikes.user.js` в окно Firefox.
 
 # Несколько советов
 

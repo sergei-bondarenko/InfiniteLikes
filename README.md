@@ -10,6 +10,7 @@
 4. В зависимости от браузера:
   * Для Chromium/Chrome: открыть страницу с расширениями (chrome://extensions/) и перетащить туда файл `InfiniteLikes.user.js`.
   * Для Firefox: установить [Greasemonkey](https://addons.mozilla.org/ru/firefox/addon/greasemonkey/) и перетащить файл `InfiniteLikes.user.js` в окно Firefox.
+5. Через несколько секунд после загрузки страницы [likes.fm](https://likes.fm/) скрипт начинает работу автоматически.
 
 # Несколько советов
 

@@ -10,9 +10,9 @@
 var viewer_id = viewer_profile.uid;  // это id ВК
 var access_token = "ххххххххххххх";  // сюда вставить токен
 
-var max_likes = 20;         // максимально допустимое количество выполненных действий за один сеанс
-var max_reposts = 20;
-var max_subs = 20;
+var max_likes = 30;         // максимально допустимое количество выполненных действий за один сеанс
+var max_reposts = 15;
+var max_subs = 10;
 var max_groups = 10;
 
 var like_min_wait = 180;    // минимальное время задержки между лайками в секундах

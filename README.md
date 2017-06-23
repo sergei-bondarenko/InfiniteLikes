@@ -5,7 +5,7 @@
 ## Использование
 
 1. Сохраните файл `InfiniteLikes.user.js`. Для этого кликните правой кнопкой мыши [сюда](https://github.com/grez911/InfiniteLikes/raw/master/InfiniteLikes.user.js) и выберите "Сохранить ссылку как...".
-2. Получите токен в [vk.com](https://vk.com). Для этого необходимо зайти в аккаунт, с которого будет осуществляться выполнение заданий, и перейти по [этой ссылке](https://oauth.vk.com/authorize?client_id=3682744&v=5.7&scope=wall,friends,groups,offline&redirect_uri=http://oauth.vk.com/blank.html&display=page&response_type=token). Токен будет записан в адресной строке после `access_token=` и до символа `&`. Скопируйте его.
+2. Получите токен в [vk.com](https://vk.com). Для этого необходимо зайти в аккаунт, с которого будет осуществляться выполнение заданий, и перейти по [этой ссылке](https://oauth.vk.com/authorize?client_id=2890984&v=5.7&scope=wall,friends,groups,offline&redirect_uri=http://oauth.vk.com/blank.html&display=page&response_type=token). Токен будет записан в адресной строке после `access_token=` и до символа `&`. Скопируйте его.
 3. Откройте файл `InfiniteLikes.user.js`, вставьте токен в переменную `access_token` в самом начале скрипта и сохраните его.
 4. Установка скрипта:
   * Для Chromium/Chrome: откройте страницу с расширениями (chrome://extensions/) и перетащите туда файл `InfiniteLikes.user.js`.
